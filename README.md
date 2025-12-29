@@ -34,3 +34,19 @@ Delete – Remove a document
 🔹 Conclusion
 
 This program shows how Node.js and MongoDB work together to perform basic CRUD operations efficiently using asynchronous programming.
+
+
+
+
+Expected Output:
+Connected to MongoDB
+Record successfully created
+Record successfully read: { 
+  _id: new ObjectId("64f1a9c2e8b8c123456789ab"),
+  name: 'John',
+  age: 50,
+  height: 6.11
+}
+Record successfully updated
+Record successfully deleted
+
